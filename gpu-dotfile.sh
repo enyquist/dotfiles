@@ -1,15 +1,17 @@
 #!/bin/bash
 
+NVIDIA_DRIVER_VERSION="560"
+
 # Update package lists
 echo "Updating package lists..."
 sudo apt update
 
 # Install NVIDIA driver and utilities
 echo "Installing NVIDIA driver and utilities..."
-sudo apt install -y nvidia-driver-560 nvidia-utils-560
+sudo apt install -y nvidia-driver-$NVIDIA_DRIVER_VERSION nvidia-utils-$NVIDIA_DRIVER_VERSION
 
 # Verify NVIDIA driver installation
-if dpkg -l | grep -q "nvidia-driver-560" && dpkg -l | grep -q "nvidia-utils-560"; then
+if dpkg -l | grep -q "nvidia-driver-$NVIDIA_DRIVER_VERSION" && dpkg -l | grep -q "nvidia-utils-$NVIDIA_DRIVER_VERSION"; then
     echo "NVIDIA driver and utilities installed successfully."
 else
     echo "Failed to install NVIDIA driver and/or utilities. Please check for errors."
