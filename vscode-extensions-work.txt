@@ -1,0 +1,23 @@
+Extensions installed on Coder: eriknyquist∕silver-tick-12∕workspace:
+charliermarsh.ruff
+cweijan.vscode-office
+donjayamanne.python-environment-manager
+eamodio.gitlens
+GitHub.copilot
+GitHub.copilot-chat
+Gruntfuggly.todo-tree
+iterative.dvc
+mechatroner.rainbow-csv
+ms-azuretools.vscode-docker
+ms-python.debugpy
+ms-python.flake8
+ms-python.isort
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+ms-vsliveshare.vsliveshare
+njpwerner.autodocstring
